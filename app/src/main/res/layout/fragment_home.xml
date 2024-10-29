@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_bt"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/jenis_tiket"
+        android:backgroundTint="#525BFF"
+        android:textColor="@color/white"
+        android:text="Explore Destination"
+        android:textStyle="bold"/>
+
+</LinearLayout>
